@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
+import { SearchBar } from './components/searchBar/SearchBar';
+
 
 function App() {
   return (
     <div>
-      <h1>Weather Dashboard</h1>
+      <SearchBar />
     </div>
   );
 }

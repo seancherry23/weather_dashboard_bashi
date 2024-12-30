@@ -1,0 +1,28 @@
+body {
+  background-image: url('./images/cloud.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.searchBarContainer {
+  display: block;
+  text-align: center;
+  width: 50%;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(169, 169, 169, 0.25);
+  border-radius: 10px;
+}
+
+.searchBarTitle {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.searchBar {
+  display: inline;
+  justify-content: center;
+  position: relative;
+}

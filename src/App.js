@@ -4,9 +4,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importDefault(require("react"));
-require("./App.css");
+const SearchBar_1 = require("./components/searchBar/SearchBar");
 function App() {
     return (react_1.default.createElement("div", null,
-        react_1.default.createElement("h1", null, "Weather Dashboard")));
+        react_1.default.createElement(SearchBar_1.SearchBar, null)));
 }
 exports.default = App;
