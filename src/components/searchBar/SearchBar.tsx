@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
-export const SearchBar: React.FC = () => {
+interface SearchBarProps {
+  onSearch: (city: string, state?: string) => void
+}
+
+export const SearchBar: React.FC<SearchBarProps> = () => {
   return (
     <div className="searchBarContainer">
       <div className="searchBarTitle">
